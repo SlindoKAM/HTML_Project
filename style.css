@@ -56,3 +56,12 @@ section.display{
         font-weight: 400;
     }
 }
+
+section.categories{
+
+    ul.categories-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
