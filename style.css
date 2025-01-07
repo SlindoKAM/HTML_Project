@@ -86,3 +86,12 @@ section.articles{
         margin: 16px;
     }
 }
+
+section.page-numbers{
+    text-align: center;
+    margin-top: 80px;
+}
+
+section.footer{
+    margin-top: 160px;
+}
