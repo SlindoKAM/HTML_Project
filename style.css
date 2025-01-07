@@ -82,7 +82,7 @@ section.articles{
     }
 
     li{
-        flex: 1 1 calc(30% -16px)
-        /* margin: 10px; */
+        flex: 1 1 calc(30% -16px);
+        margin: 16px;
     }
 }
