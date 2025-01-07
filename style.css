@@ -63,5 +63,26 @@ section.categories{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        list-style-type: none;
+
+        a{
+            text-decoration: none;
+            color: #909090;
+        }
+    }
+}
+
+section.articles{
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        flex-wrap: wrap;
+    }
+
+    li{
+        flex: 1 1 calc(30% -16px)
+        /* margin: 10px; */
     }
 }
